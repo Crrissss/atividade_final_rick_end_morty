@@ -91,20 +91,17 @@ async function render({ characters, totalItems, pageSize, currentPage }) {
           <div class="modal-content">
             <div class="modal-header">
               <img src="${character.image}" class="card-img-top"..." />
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
+             
             </div>
             <div class="modal-body">
               <!-- Conteúdo da modal aqui -->
-              <p>Este é o conteúdo da sua modal.</p>
+           
               <p><b>Nome:</b> ${character.name}</p>
               <p><b>Status:</b> ${character.status}</p>
               <p><b>Espécie:</b> ${character.species}</p>
-              <p><b>Última localização conhecida:</b> ${character.location.name}</p>
+              
+              <p><b>Gênero:</b> ${character.gender}</p>
+              <p><b>Origem:</b> ${character.origin.name}</p>
             </div>
             <div class="modal-footer">
               <button
