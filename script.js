@@ -70,7 +70,7 @@ async function render({ characters, totalItems, pageSize, currentPage }) {
           
           <button
           type="button"
-          class="btn btn-primary"
+          class="badge text-bg-info"
           data-bs-toggle="modal"
           data-bs-target="#myModal${i}"
         >
